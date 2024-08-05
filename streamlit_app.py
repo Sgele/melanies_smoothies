@@ -48,5 +48,4 @@ if ingredients_list:
 # New section to Display fruityvice nutririon information
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
-
+st. text(fruityvice_response.json())
