@@ -1,5 +1,6 @@
 # requirements.txt
 
-snowflake-conenctor-python
+pip install snowflake-connector-python
+pip install --upgrade pip
 snowflake-spark-python
 streamlit==1.37.0
